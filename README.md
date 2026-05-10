@@ -47,17 +47,17 @@ The model uses invoice and customer-related features:
 | `document type` | Categorical |
 | `total_open_amount` | Numerical |
 | `cust_payment_terms` | Categorical |
-| `payment_window` | Numerical (engineered) |
+| `arrears` | Numerical (engineered) |
 
 ---
 
 ## Feature Engineering
 
-### payment_window
-`payment_window` was engineered from AR domain knowledge as:
+### arrears
+`arrears` was engineered from AR domain knowledge as:
 
 ```python
-payment_window = posting_date - due_in_date
+arrears = posting_date - due_in_date
 ```
 
 This captures how many days before or after the due date an invoice was posted — a meaningful signal for predicting payment behavior.
