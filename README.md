@@ -178,7 +178,6 @@ At threshold 0.76, FN = 0. All unpaid invoices in the test set were correctly fl
 - Engineer aging-related features (days outstanding, payment history)
 - Test Random Forest and Gradient Boosting models
 - Add Precision, Recall, F1, and ROC-AUC evaluation
-- Build a simple invoice risk scoring dashboard
 - Use actual invoice values for cost-weighted threshold optimization
 
 ---
@@ -187,6 +186,7 @@ At threshold 0.76, FN = 0. All unpaid invoices in the test set were correctly fl
 
 - Python, Pandas, NumPy
 - Scikit-learn: LogisticRegression, Pipeline, ColumnTransformer, OneHotEncoder, RobustScaler, GridSearchCV
+- Power BI
 
 ---
 
