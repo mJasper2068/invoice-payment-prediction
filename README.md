@@ -187,3 +187,9 @@ At threshold 0.76, FN = 0. All unpaid invoices in the test set were correctly fl
 
 - Python, Pandas, NumPy
 - Scikit-learn: LogisticRegression, Pipeline, ColumnTransformer, OneHotEncoder, RobustScaler, GridSearchCV
+
+---
+
+## Dashboard
+
+![Dashboard](dashboard.png)
