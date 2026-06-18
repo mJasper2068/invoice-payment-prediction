@@ -1,5 +1,7 @@
 # Invoice Payment Status Prediction using Logistic Regression
 
+🔗 **Live Demo:** [Try the app here](https://invoice-payment-prediction.streamlit.app/)
+
 ## Project Overview
 
 This project uses the **Customer Invoices Dataset from Kaggle** to predict whether an invoice is paid or still unpaid based on available invoice-related features.
@@ -182,11 +184,21 @@ At threshold 0.76, FN = 0. All unpaid invoices in the test set were correctly fl
 
 ---
 
+Deployment
+
+This project is deployed as an interactive Streamlit web app, allowing users to input invoice details and receive a real-time payment status prediction at the optimized 0.76 threshold.
+
+Live app: https://invoice-payment-prediction.streamlit.app/
+
+---
+
 ## Tech Stack
 
 - Python, Pandas, NumPy
 - Scikit-learn: LogisticRegression, Pipeline, ColumnTransformer, OneHotEncoder, RobustScaler, GridSearchCV
 - Power BI
+- Streamlit (deployment)
+- joblib (model persistence)
 
 ---
 
